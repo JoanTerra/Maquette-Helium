@@ -1,5 +1,142 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter-Variable";
+  src: url(./Assets/Fonts/Inter-Variable.ttf);
+}
+
+body {
+  background: rgb(47, 47, 47);
+  height: 100vh;
+  font-family: "Inter-Variable", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  width: 50%;
+  justify-content: space-between;
+}
+
+nav h2 {
+  margin-left: 1rem;
+}
+
+main {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+#pres_prod_container {
+  padding-left: 1rem;
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 1rem;
+  margin-top: 10rem;
+}
+
+#modem {
+  height: 70vh;
+  margin-right: 2rem;
+}
+
+main h3 {
+  font-size: 2rem;
+  color: blue;
+  margin: 1rem;
+}
+
+h1,
+h2,
+h4,
+h3,
+h5,
+h6 {
+  color: white;
+}
+
+p {
+  color: white;
+  margin-left: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  color: white;
+}
+
+footer {
+  background: rgb(32, 31, 31);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.info_core {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: block;
+  width: 10rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background: blue;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: none;
+  font-family: "Inter-Variable", sans-serif;
+}
+
+.invest {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 50%;
+}
+
+.invest h3 {
+  align-self: flex-start;
+  margin-left: -5rem;
+}
+
+.img_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_container img {
+  margin-top: 3rem;
+  width: 7rem;
+  height: auto;
+}
